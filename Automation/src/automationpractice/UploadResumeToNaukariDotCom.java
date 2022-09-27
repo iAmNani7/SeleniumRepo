@@ -18,7 +18,7 @@ public class UploadResumeToNaukariDotCom extends _StaticBlockForWebdriver{
 			driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 			driver.findElement(By.id("login_Layer")).click();
 			driver.findElement(By.xpath("(//input)[1]")).sendKeys("naveenkumar.podilli@gmail.com");
-			driver.findElement(By.xpath("//input[@placeholder='Enter your password']")).sendKeys("Nani@#$");
+			driver.findElement(By.xpath("//input[@placeholder='Enter your password']")).sendKeys("");
 			driver.findElement(By.xpath("//button[@type='submit']")).click();
 			driver.findElement(By.xpath("//div[@class='btn btn-block btn-large white-text']")).click();
 			File f=new File("./data/NaveenkumarPodili_UpdatedResume.pdf");
