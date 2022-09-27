@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-26T23:40:19 IST" name="Default suite" finished-at="2022-09-26T23:41:15 IST" duration-ms="55634">
+  <suite started-at="2022-09-27T11:52:34 IST" name="Default suite" finished-at="2022-09-27T11:53:47 IST" duration-ms="73344">
     <groups>
     </groups>
-    <test started-at="2022-09-26T23:40:19 IST" name="Default test" finished-at="2022-09-26T23:41:15 IST" duration-ms="55634">
-      <class name="automationpractice.UploadResumeToNaukariDotCom">
-        <test-method signature="uploadResume()[pri:0, instance:automationpractice.UploadResumeToNaukariDotCom@1a4013]" started-at="2022-09-26T23:40:20 IST" name="uploadResume" finished-at="2022-09-26T23:41:15 IST" duration-ms="55566" status="PASS">
+    <test started-at="2022-09-27T11:52:34 IST" name="Default test" finished-at="2022-09-27T11:53:47 IST" duration-ms="73344">
+      <class name="automationpractice.FlipkartPrintingIphone14maxproDetails">
+        <test-method signature="flipkartIphone14MaxProDetailsPrinting()[pri:0, instance:automationpractice.FlipkartPrintingIphone14maxproDetails@1a4013]" started-at="2022-09-27T11:52:34 IST" name="flipkartIphone14MaxProDetailsPrinting" finished-at="2022-09-27T11:53:47 IST" duration-ms="73267" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- uploadResume -->
-      </class> <!-- automationpractice.UploadResumeToNaukariDotCom -->
+        </test-method> <!-- flipkartIphone14MaxProDetailsPrinting -->
+      </class> <!-- automationpractice.FlipkartPrintingIphone14maxproDetails -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

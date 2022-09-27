@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automationpractice.UploadResumeToNaukariDotCom">
+      <class name="automationpractice.AutomateAlertsInAutomateTesting">
         <methods>
-          <include name="uploadResume"/>
+          <include name="automationWebsiteAlertTesting"/>
         </methods>
-      </class> <!-- automationpractice.UploadResumeToNaukariDotCom -->
+      </class> <!-- automationpractice.AutomateAlertsInAutomateTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

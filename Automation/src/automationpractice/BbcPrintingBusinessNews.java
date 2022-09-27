@@ -16,7 +16,7 @@ public class BbcPrintingBusinessNews {
 	{
 		driver=new ChromeDriver();
 		driver.get("https://www.bbc.com/");
-		List<WebElement> li = driver.findElements(By.xpath("(//span)[56]/../../..//h3"));
+		List<WebElement> li = driver.findElements(By.xpath("//h2[contains(text(),'Latest Business News')]/../ul//h3"));
 		for(WebElement i:li)
 		{
 //			Reporter.log(i.getText());

@@ -18,9 +18,9 @@ public class FlipkartPrintingIphone14maxproDetails extends _StaticBlockForWebdri
 	{
 		try
 		{
-			
+
 			driver=new ChromeDriver();
-			
+
 			driver.get("https://www.flipkart.com");
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			driver.findElement(By.xpath("//button[text()='✕']")).click();
@@ -28,17 +28,18 @@ public class FlipkartPrintingIphone14maxproDetails extends _StaticBlockForWebdri
 			driver.findElement(By.xpath("//input[@name='q']")).submit();
 			List<WebElement> name = driver.findElements(By.xpath("(//div[contains(text(),'APPLE')])[2]/../../../../../../../..//div[contains(text(),'APPLE')]"));
 			List<WebElement> rates = driver.findElements(By.xpath("(//div[contains(text(),'APPLE')])[2]/../../../../../../../..//div[contains(text(),'APPLE')]/../../div[2]/div[1]/div[1]/div[1]"));
-			////div[contains(text(),'APPLE iPhone')]/../../div[2]/div[1]/div[1]
 			for(int i=0;i<name.size();i++)
 			{
 				System.out.print(name.get(i).getText()+"------------>"+rates.get(i).getText()+"\n");
 			}
+			driver.close();
 		}
 		catch(Exception e)
 		{
 			e.printStackTrace();
+			driver.close();
 		}
-		
+
 
 	}
 }
