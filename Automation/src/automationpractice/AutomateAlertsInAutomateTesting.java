@@ -1,5 +1,4 @@
 package automationpractice;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -18,20 +17,17 @@ public class AutomateAlertsInAutomateTesting extends _StaticBlockForWebdriver {
 			driver.findElement(By.xpath("(//a[@class='analystic'])[2]")).click();
 			driver.findElement(By.xpath("//button[@class='btn btn-primary']")).click();
 			driver.switchTo().alert().dismiss();
-			String text=driver.findElement(By.xpath("//p[contains(text(),'You')]")).getText();
-			if(text.equals("You Pressed Cancel"))
-				System.out.println("Passed");
-			else
-				Assert.fail();
+			String atext=driver.findElement(By.xpath("//p[contains(text(),'You')]")).getText();
+			String etext="You Pressed Cancel";
+			Assert.assertEquals(atext, etext);
+			driver.close();
 		}
 		catch(Exception e) 
 		{
 			e.printStackTrace();
+			Assert.fail();
 			driver.close();
 		}
-		finally 
-		{
-			driver.close();
-		}
+
 	}
 }
