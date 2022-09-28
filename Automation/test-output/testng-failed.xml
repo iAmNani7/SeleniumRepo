@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automationpractice.AutomateAlertsInAutomateTesting">
+      <class name="com.automation.practice.PrintingFlipkartUsingRobotClass">
         <methods>
-          <include name="automationWebsiteAlertTesting"/>
+          <include name="printFlipkart"/>
         </methods>
-      </class> <!-- automationpractice.AutomateAlertsInAutomateTesting -->
+      </class> <!-- com.automation.practice.PrintingFlipkartUsingRobotClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
