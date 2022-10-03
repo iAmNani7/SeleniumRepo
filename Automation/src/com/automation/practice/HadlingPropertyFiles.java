@@ -1,7 +1,7 @@
 package com.automation.practice;
 import java.io.*;
 import java.util.*;
-public class HadlingPropertyFiles extends _StaticBlockForWebdriver{
+public class HadlingPropertyFiles extends BaseClass{
 
 	public static void main(String[] args) throws IOException 
 		{

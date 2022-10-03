@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class AutomateAlertsInAutomateTesting extends _StaticBlockForWebdriver {
+public class AutomateAlertsInAutomateTesting extends BaseClass {
 	WebDriver driver; 
 	@Test
 	public void automationWebsiteAlertTesting()

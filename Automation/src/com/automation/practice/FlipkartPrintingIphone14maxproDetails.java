@@ -10,7 +10,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class FlipkartPrintingIphone14maxproDetails extends _StaticBlockForWebdriver {
+public class FlipkartPrintingIphone14maxproDetails extends BaseClass {
 
 	WebDriver driver;
 	@Test

@@ -5,7 +5,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class HandlingScroll1 extends _StaticBlockForWebdriver{
+public class HandlingScroll1 extends BaseClass{
 	public static void main(String[] args) throws InterruptedException 
 	{
 		WebDriver driver=new ChromeDriver();

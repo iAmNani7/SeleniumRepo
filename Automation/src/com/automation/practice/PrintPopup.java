@@ -5,26 +5,25 @@ import java.awt.Robot;
 import java.awt.event.KeyEvent;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
-public class PrintingFlipkartUsingRobotClass extends BaseClass
+public class PrintPopup extends BaseClass
 {
 	@Test
-	public void printFlipkart() throws AWTException, InterruptedException
+	public void printHomepage() throws AWTException, InterruptedException
 	{
-		WebDriver driver=new ChromeDriver();
-		driver.get("https://www.flipkart.com/");
+		WebDriver driver=new FirefoxDriver();
+		driver.get("https://www.amazon.in/");
 		Robot r=new Robot();
-		Thread.sleep(8000);
 		r.keyPress(KeyEvent.VK_CONTROL);
 		r.keyPress(KeyEvent.VK_P);
 		r.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		r.keyPress(KeyEvent.VK_TAB);
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		r.keyPress(KeyEvent.VK_TAB);
-		r.keyRelease(KeyEvent.VK_TAB);
+		Thread.sleep(1000);
 		r.keyPress(KeyEvent.VK_DOWN);
 		r.keyPress(KeyEvent.VK_DOWN);
 		r.keyPress(KeyEvent.VK_DOWN);
@@ -33,5 +32,6 @@ public class PrintingFlipkartUsingRobotClass extends BaseClass
 		r.keyPress(KeyEvent.VK_MINUS);
 		r.keyPress(KeyEvent.VK_2);
 		r.keyPress(KeyEvent.VK_ENTER);
+		r.keyPress(KeyEvent.VK_ENTER);
 	}
-	}
+}
