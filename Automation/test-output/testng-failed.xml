@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.practice.PrintingFlipkartUsingRobotClass">
+      <class name="com.automation.practice.WindowHandlesClosingIndeed">
         <methods>
-          <include name="printFlipkart"/>
+          <include name="windowHandle"/>
         </methods>
-      </class> <!-- com.automation.practice.PrintingFlipkartUsingRobotClass -->
+      </class> <!-- com.automation.practice.WindowHandlesClosingIndeed -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
